@@ -7,7 +7,7 @@
       <h5 class="card-title">{{p.title}}</h5>
       <p class="card-text">Price : {{p.price}}</p>
       <p class="card-text">Quantity : {{p.quantity}}</p>
-      <p class="card-text">Like : {{p.like}}</p>
+      <p class="card-text">Likes : {{p.like}}</p>
       <button class="btn btn-primary" (click)="buy(i)" [disabled]="p.quantity==0">buy</button>
       <button class="btn btn-primary"(click)="like(i)">like</button>
     </div>
